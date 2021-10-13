@@ -1,0 +1,24 @@
+# Ignore .husky
+.husky
+.husky/*
+
+# Ignore .lock files
+*.lock
+
+# Ignore dot files
+.prettierignore
+.firebaserc
+.firebase/hosting*
+.eslint*
+.gitignore
+.env
+.env.*
+.thing*
+
+# Ignore non-src files
+public/robots.txt
+public/_redirects
+public/favicon*
+public/static/*
+src/Assets/logo.*
+src/Assets/*

@@ -1,7 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
+  // Uncomment and try to push these warnings.
+  // let val = 0;
+  // let val2 = 0;
   return (
     <div className="App">
       <header className="App-header">

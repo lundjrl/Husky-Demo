@@ -1,0 +1,13 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Test our code.
+yarn test
+
+# Clean our code and check for eslint warnings.
+npx lint-staged
+
+# Add our prettier changed files to git.
+git add -A .
+
+# exit 1
